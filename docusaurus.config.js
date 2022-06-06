@@ -46,9 +46,6 @@ const config = {
           rehypePlugins: [katex],
           // end use math notations
         },
-        blog: {
-          showReadingTime: true,
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -102,10 +99,6 @@ const config = {
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
                 href: "https://github.com/facebook/docusaurus",

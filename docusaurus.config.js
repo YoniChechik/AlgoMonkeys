@@ -13,8 +13,8 @@ const katex = require("rehype-katex");
 const config = {
   title: "AlgoMonkeys",
   tagline: "Your Algo Team for Hire!",
-  url: "https://yonichechik.github.io",
-  baseUrl: "/AlgoMonkeys/",
+  url: "https://yonichechik.github.io/AlgoMonkeys",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -24,7 +24,7 @@ const config = {
   organizationName: "YoniChechik", // Usually your GitHub org/user name.
   projectName: "AlgoMonkeys", // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: "main",
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want

@@ -14,7 +14,7 @@ const config = {
   title: "AlgoMonkeys",
   tagline: "Your Algo Team for Hire!",
   url: "https://yonichechik.github.io",
-  baseUrl: "/",
+  baseUrl: "/AlgoMonkeys/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

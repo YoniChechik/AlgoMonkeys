@@ -13,8 +13,8 @@ const katex = require("rehype-katex");
 const config = {
   title: "AlgoMonkeys",
   tagline: "Your Algo Team for Hire!",
-  url: "https://yonichechik.github.io/AlgoMonkeys",
-  baseUrl: "/",
+  url: "https://yonichechik.github.io",
+  baseUrl: "/AlgoMonkeys/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

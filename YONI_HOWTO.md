@@ -16,9 +16,7 @@ run `npx docusaurus start` and you can start hot reloading stuff
     deploymentBranch: "gh-pages",
 
 and then:
-`cmd /C "set "GIT_USER=yonichechik" && npm run deploy"`
-
-(maybe add USE_SSH=true ???)
+`cmd /C "set "GIT_USER=yonichechik" && set "USE_SSH=true" && npm run deploy"`
 
 if this is the first time you deploy you need to set github pages:
 in your repo `setting -> pages` choose source as `gh-pages` and `/ (root)`

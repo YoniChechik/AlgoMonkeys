@@ -4,8 +4,8 @@ run `npx docusaurus start` and you can start hot reloading stuff
 
 ## deploy locally on windows
 
-    url: "https://yonichechik.github.io/AlgoMonkeys",
-    baseUrl: "/",
+    url: "https://yonichechik.github.io",
+    baseUrl: "/AlgoMonkeys/",
 
 
     // GitHub pages deployment config.

@@ -45,5 +45,5 @@ jobs:
           # https://github.com/actions/checkout/issues/13#issuecomment-724415212
           # The GH actions bot is used by default if you didn't specify the two fields.
           # You can swap them out with your own user credentials.
-          default_author: 41898282+github-actions[bot]@users.noreply.github.com
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
           new_branch: gh-pages

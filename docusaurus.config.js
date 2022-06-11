@@ -49,6 +49,9 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        gtag: {
+          trackingID: "G-P51BLZP1H4",
+        },
       }),
     ],
   ],
@@ -67,13 +70,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+      },
       navbar: {
         hideOnScroll: true,
 
         logo: {
           alt: "AlgoMonkeys Logo",
           src: "img/logo_light.svg",
-          srcDark: "img/logo_dark.svg",
         },
         items: [
           {

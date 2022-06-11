@@ -1,3 +1,4 @@
+#test that deployment passed on PRs
 name: Test deployment
 
 on:

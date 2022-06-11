@@ -8,7 +8,7 @@ Let $f\colon[a,b]\to\R$ be Riemann integrable. Let $F\colon[a,b]\to\R$ be
 $F(x)=\int_{a}^{x} f(t)\,dt$. Then $F$ is continuous, and at all $x$ such that
 $f$ is continuous at $x$, $F$ is differentiable at $x$ with $F'(x)=f(x)$.
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Add **Markdown or xReact** files to `src/pages` to create a **standalone page**:
 
 - `src/pages/index.js` -> `localhost:3000/`
 - `src/pages/foo.md` -> `localhost:3000/foo`

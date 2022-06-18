@@ -29,9 +29,8 @@ function ContactUs() {
 
         <form
           id="form"
-          //replace the mail with this: 269a11a5adee914f7e68e46593a13291
-          action="https://formsubmit.co/contact@algomonkeys.io"
-          // action="https://formsubmit.co/269a11a5adee914f7e68e46593a13291"
+          // action="https://formsubmit.co/contact@algomonkeys.io"
+          action="https://formsubmit.co/269a11a5adee914f7e68e46593a13291"
           method="POST"
         >
           <input type="text" name="name" placeholder="Name*" required />

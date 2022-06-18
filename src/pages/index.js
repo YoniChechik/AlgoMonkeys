@@ -18,28 +18,50 @@ function HomepageHeader() {
   );
 }
 
+function ContactUs() {
+  return (
+    <div className={clsx("hero shadow--lw", styles.heroBanner)}>
+      <div className="container">
+        {/* <ContactForm /> */}
+        <h1 id="contact_us" name="contact_us" className="hero__title">
+          {"Contact Us"}
+        </h1>
+
+        <form
+          id="form"
+          //replace the mail with this: 269a11a5adee914f7e68e46593a13291
+          // action="https://formsubmit.co/contact@algomonkeys.io"
+          action="https://formsubmit.co/269a11a5adee914f7e68e46593a13291"
+          method="POST"
+        >
+          <input type="text" name="name" placeholder="Name*" required />
+          <input type="email" name="email" placeholder="Email*" required />
+          <textarea
+            placeholder="Your Message (Not Mandatory)"
+            name="message"
+            rows="3"
+          />
+          <button type="submit">Send</button>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://www.algomonkeys.io"
+          />
+        </form>
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      // title={"tab title"}
-      description={`${siteConfig.title}: ${siteConfig.tagline}`}
-    >
+    <Layout description={`${siteConfig.title}: ${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <div className={clsx("hero shadow--lw", styles.heroBanner)}>
           <div className="container">
             <h1 className="hero__title">{"Building something new..."}</h1>
-            {/* <p className="hero__subtitle">
-              {"In the meantime you can shoot us "}
-            </p>
-            <Link className="hero__subtitle" to="/blog">
-              an email
-            </Link>
-            <p className="hero__subtitle">{"OR"}</p>
-            <p className="hero__subtitle">
-              {"check out our older Computer Vision course site at: "}
-            </p> */}
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--block"
@@ -59,6 +81,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <ContactUs />
       </main>
     </Layout>
   );

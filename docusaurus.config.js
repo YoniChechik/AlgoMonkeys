@@ -20,7 +20,6 @@ const config = {
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "YoniChechik", // Usually your GitHub org/user name.
   projectName: "AlgoMonkeys", // Usually your repo name.
   trailingSlash: false,
@@ -83,30 +82,31 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "course_intro",
             position: "left",
-            label: "Tutorial",
+            label: "Our Computer Vision Course",
           },
         ],
       },
       footer: {
-        style: "dark",
+        // logo: {
+        //   alt: "AlgoMonkeys Logo",
+        //   src: "img/logo_light.svg",
+        // },
         links: [
           {
-            title: "Docs",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Home",
+                to: "/",
               },
-            ],
-          },
-          {
-            title: "More",
-            items: [
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Contact Us",
+                to: "/",
+              },
+              {
+                label: "Our Computer Vision Course",
+                to: "/docs/course_intro",
               },
             ],
           },

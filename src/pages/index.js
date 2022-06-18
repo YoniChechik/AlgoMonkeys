@@ -38,7 +38,7 @@ function ContactUs() {
           <textarea
             placeholder="Your Message (Not Mandatory)"
             name="message"
-            rows="3"
+            rows="5"
           />
           <button type="submit">Send</button>
           <input
@@ -61,14 +61,6 @@ export default function Home() {
         <div className={clsx("hero shadow--lw", styles.heroBanner)}>
           <div className="container">
             <h1 className="hero__title">{"Building something new..."}</h1>
-            <div className={styles.buttons}>
-              <Link
-                className="button button--secondary button--block"
-                to="mailto:chechik.yoni@gmail.com"
-              >
-                Shoot us an email at: chechik.yoni@gmail.com
-              </Link>
-            </div>
             <p />
             <div className={styles.buttons}>
               <Link

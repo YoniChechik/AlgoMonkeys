@@ -20,7 +20,7 @@ function HomepageHeader() {
 
 function ContactUs() {
   return (
-    <div className={clsx("hero shadow--lw", styles.heroBanner)}>
+    <div id="contact_us" className={clsx("hero shadow--lw", styles.heroBanner)}>
       <div className="container">
         {/* <ContactForm /> */}
         <h1 id="contact_us" name="contact_us" className="hero__title">

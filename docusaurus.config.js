@@ -72,6 +72,8 @@ const config = {
       colorMode: {
         disableSwitch: true,
       },
+      //The meta image URL for the site. Relative to your site's "static" directory. Cannot be SVGs. Can be external URLs too.
+      image: "img/docusaurus.png",
       navbar: {
         hideOnScroll: true,
 
@@ -81,10 +83,15 @@ const config = {
         },
         items: [
           {
+            to: "/#contact_us",
+            position: "left",
+            label: "Contact Us",
+          },
+          {
             type: "doc",
             docId: "course_intro",
-            position: "left",
-            label: "Our Computer Vision Course",
+            position: "right",
+            label: "Learn Computer Vision",
           },
         ],
       },
@@ -102,10 +109,10 @@ const config = {
               },
               {
                 label: "Contact Us",
-                to: "/",
+                to: "/#contact_us",
               },
               {
-                label: "Our Computer Vision Course",
+                label: "Learn Computer Vision",
                 to: "/docs/course_intro",
               },
             ],

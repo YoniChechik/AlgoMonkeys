@@ -1,57 +1,44 @@
 .carousel-root {
   width: 100%;
-  /* margin: auto; */
-  /* margin-top: 3%; */
-  padding: 50px;
+  margin: auto; /* center div */
+  padding: 50px 20px;
 }
 
 .carousel .control-dots .dot {
-  /* box-shadow: none; */
   background: #454545;
-  /* outline: 0; */
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
 
 .testimonialBlock {
   background: #fafafa;
-  /* margin-top: -6%; */
-  width: 100%;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* padding-top: 6%;
-  padding-bottom: 8%;
-  padding-left: 5%;
-  padding-right: 5%; */
-  /* border: 1px solid #ddd; */
+  width: 50%;
+  margin: auto; /* center div */
   height: 286px;
+}
+
+.myimg {
+  width: 50%;
+  margin: auto; /* center div */
 }
 
 .testimonialBlock h3 {
   color: #222;
   font-weight: 100;
   letter-spacing: 0.2px;
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
   font-weight: 600;
   text-transform: uppercase;
   font-size: 17px;
 }
 
-.testimonialBlock h4 {
-  text-transform: uppercase;
-  margin-top: 0;
-  padding-top: 0;
-  font-weight: 500;
-  color: #787878;
-  font-size: 14px;
-}
-
 .testimonialBlock p {
   font-weight: 100;
-  line-height: 29px;
+  /* line-height: 29px; */
   color: #222;
   font-size: 15px;
   font-family: sans-serif;
-  max-height: 67px;
+  /* max-height: 67px; */
+  white-space: pre-line; /* deals with new lines */
 }
 
 .testimonialBlock p:before {
@@ -71,33 +58,16 @@
   line-height: 0;
 }
 
-/* @media only screen and (max-width: 934px) {
-  .carousel-root {
-    outline: 0;
-    width: 93%;
-    margin: auto;
-  }
-
-  .carousel.carousel-slider .control-arrow {
-    display: none;
-  }
-
+@media only screen and (max-width: 900px) {
   .testimonialBlock {
-    background: #fafafa;
-    margin-top: -9%;
-    width: 88%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 8%;
-    padding-bottom: 12.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border: 1px solid #ddd;
-    height: 269px;
+    height: 300px;
+    width: 95%;
+    /* font-size: 16px; */
   }
-
-  .carousel .slide img {
-    width: 24%;
-    border-radius: 50%;
+}
+@media only screen and (max-width: 500px) {
+  .testimonialBlock {
+    height: 500px;
+    width: 95%;
   }
-} */
+}

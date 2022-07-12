@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-
+import Testimonials from "../components/carousel";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
@@ -58,6 +58,7 @@ export default function Home() {
     <Layout description={`${siteConfig.title}: ${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
+        <Testimonials />
         <div className={clsx("hero shadow--lw", styles.heroBanner)}>
           <div className="container">
             <h1 className="hero__title">{"Building something new..."}</h1>

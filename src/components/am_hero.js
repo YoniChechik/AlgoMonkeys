@@ -28,7 +28,7 @@ export default function AMHero() {
           </div>
         </div>
         <div className="am-hero-img">
-          <img src="/img/programer_monkey.svg" />
+          <img src="/img/programer_monkey.svg" alt="programer monkey" />
         </div>
       </section>
     </header>

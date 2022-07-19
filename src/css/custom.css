@@ -18,20 +18,7 @@
   --ifm-footer-background-color: #dbdbdb;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-/* [data-theme='dark'] {
-  --ifm-color-primary: #f4f729;
-  --ifm-color-primary-dark: #f3f60d;
-  --ifm-color-primary-darker: #e9ec09;
-  --ifm-color-primary-darkest: #c0c207;
-  --ifm-color-primary-light: #f5f845;
-  --ifm-color-primary-lighter: #f6f953;
-  --ifm-color-primary-lightest: #f8fa7c;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-footer-background-color: #01509f;
-
-}
- */
-
-/* import nunito font */
-@import url("https://fonts.googleapis.com/css?family=Nunito:light,bold");
+/* ===== import nunito font
+display=swap to ensure text remains visible during webfont load
+from: https://web.dev/font-display/?utm_source=lighthouse&utm_medium=devtools#google-fonts */
+@import url("https://fonts.googleapis.com/css?family=Nunito:light,bold&display=swap");

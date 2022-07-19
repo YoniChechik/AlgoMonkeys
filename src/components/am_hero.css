@@ -1,0 +1,75 @@
+.am-hero-container {
+  background-color: #c2c2c2;
+
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+@media (min-width: 640px) {
+  .am-hero-container {
+    justify-content: flex-end;
+  }
+}
+
+.am-hero-container .am-hero {
+  margin: 10px auto;
+  max-width: 1280px; /* not overflow to the sides if screen is too big */
+  padding: 0 1rem 3rem 1rem;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .am-hero-container .am-hero {
+    display: flex;
+  }
+}
+
+.am-hero-container .am-hero .am-hero-details {
+  flex: 1;
+}
+.am-hero-container .am-hero .am-hero-details {
+  margin-top: 1rem;
+}
+
+.am-hero-container .am-hero .am-hero-details p {
+  color: #000000;
+  max-width: 36rem;
+  line-height: 1.625;
+}
+@media (min-width: 640px) {
+  .am-hero-container .am-hero .am-hero-details p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .am-hero-container .am-hero .am-hero-details p {
+    margin-left: 0;
+  }
+}
+@media (min-width: 640px) {
+  .am-hero-container .am-hero .am-hero-details {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .am-hero-container .am-hero .am-hero-details {
+    text-align: left;
+  }
+}
+.am-hero-container .am-hero .am-hero-btns {
+  padding-top: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.am-hero-container .am-hero .am-hero-img {
+  flex: 1;
+  margin-top: 1.75rem;
+}
+
+.am-hero-container .am-hero .am-hero-img img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

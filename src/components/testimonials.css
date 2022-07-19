@@ -1,6 +1,7 @@
 .carousel-root {
   width: 100%;
-  margin: auto; /* center div */
+  margin: -40px auto 0px; /* center div */
+  padding: 0px;
 }
 
 .carousel .control-dots .dot {

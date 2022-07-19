@@ -5,7 +5,7 @@ import Link from "@docusaurus/Link";
 export default function Button(props) {
   return (
     <button className="custom-btn main-yellow">
-      <Link className="custom-link" to="https://www.aiismath.com">
+      <Link className="custom-link" to={props.to}>
         {props.children}
       </Link>
     </button>

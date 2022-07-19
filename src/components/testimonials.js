@@ -15,7 +15,13 @@ const Testimonial = ({ name, job_title, image_path, alt, text }) => {
     <div className="testimonialBlock">
       <p>{text}</p>
       <div className="logo">
-        <Image img={image_path} alt={alt} style={img} />
+        <Image
+          img={image_path}
+          alt={alt}
+          style={img}
+          width={"100%"}
+          height={"100%"}
+        />
       </div>
       <h3>
         {name} - {job_title}

@@ -6,6 +6,7 @@
 .AMTitle {
   display: flex;
   justify-content: center; /* align horizontal */
+  align-items: flex-start;
 }
 
 .AMTitle h1 {
@@ -22,5 +23,6 @@
 
 .ThreeDots {
   height: 20px;
+  width: auto;
   margin: 0px 0px 0px 5px;
 }

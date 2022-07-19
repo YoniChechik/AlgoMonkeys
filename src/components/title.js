@@ -11,6 +11,8 @@ export default function Title(props) {
           className="ThreeDots"
           src="/img/three_dots.svg"
           alt="title three dots"
+          width="100%"
+          height="100%"
         />
       </div>
     </div>

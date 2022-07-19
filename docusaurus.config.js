@@ -57,11 +57,11 @@ const config = {
   // use math notations
   stylesheets: [
     {
-      href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      // self hosting katex to avoid render block.
+      // katex version is 0.16.0. from: https://github.com/KaTeX/KaTeX/releases/tag/v0.16.0
+      // from: https://docusaurus.io/docs/markdown-features/math-equations#self-hosting-katex-assets
+      href: "/katex/katex.min.css",
       type: "text/css",
-      integrity:
-        "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
-      crossorigin: "anonymous",
     },
   ],
   // end use math notations

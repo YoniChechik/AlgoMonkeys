@@ -1,0 +1,26 @@
+.AMContainer {
+  width: 100%;
+  padding: 20px 20px 0px;
+  display: flex;
+}
+
+.AMTitle {
+  display: flex;
+}
+
+.AMTitle h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.AMTitle h1 span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #ef1385;
+}
+
+.ThreeDots {
+  height: 20px;
+  margin: 0px 0px 0px 5px;
+}

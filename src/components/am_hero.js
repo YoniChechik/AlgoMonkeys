@@ -14,17 +14,21 @@ export default function AMHero() {
             Your <PinkPart>Algo Team</PinkPart> for Hire
           </Title>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum
+            We are passionate about providing cutting-edge solutions for our
+            clients' needs in the fields of algorithms, neural networks and
+            computer vision through freelance services or consulting.
           </p>
           <div className="am-hero-btns">
-            <Button to={"/#contact_us"}>Contact Us</Button>
-            <Button to={"/#contact_us"}>Learn Computer Vision</Button>
+            <Button to={"/#contact_us"} type={"main-pink"}>
+              Contact Us
+            </Button>
+            <Button to={"/docs/course_intro"} type={"main-yellow"}>
+              Learn Computer Vision
+            </Button>
           </div>
         </div>
         <div className="am-hero-img">
-          <img src="https://i.postimg.cc/HxHyt53c/undraw-heatmap-uyye.png" />
+          <img src="/img/programer_monkey.svg" />
         </div>
       </section>
     </header>

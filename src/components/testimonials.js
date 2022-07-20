@@ -1,15 +1,15 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-import "./testimonials.css";
 import Image from "@theme/IdealImage";
 import Title, { PinkPart } from "./title";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "./testimonials.css";
 
 const img = {
   maxWidth: "100%",
   maxHeight: "100%",
 };
-
 const Testimonial = ({ name, job_title, image_path, alt, text }) => {
   return (
     <div className="testimonialBlock">
@@ -41,21 +41,19 @@ const Testimonial = ({ name, job_title, image_path, alt, text }) => {
 };
 
 export default function Testimonials() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div>
       <Title>
         Clients <PinkPart>React</PinkPart>
       </Title>
-
-      <Carousel
-        showArrows={false}
-        infiniteLoop={true}
-        showThumbs={false}
-        showStatus={false}
-        autoPlay={true}
-        useKeyboardArrows={true}
-        interval={6000} // milliseconds between transitions
-      >
+      <Slider {...settings}>
         <Testimonial
           name="Yaniv Knoll"
           job_title="CTO"
@@ -85,7 +83,7 @@ export default function Testimonials() {
         With the help of AlgoMonkeys' knowledge, the process was very efficient. The first milestones we expected to take months were ready nearly instantly. AlgoMonkeys helped us foresee and avoid upcoming complications - providing significant insights regarding camera parameters, robust marker patterns, Illumination, etc. 
         Looking forward to working with AlgoMonkeys again.`}
         />
-      </Carousel>
+      </Slider>
     </div>
   );
 }

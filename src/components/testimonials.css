@@ -1,6 +1,7 @@
-.carousel-root {
+/* TODO not responsive yet  */
+.slick-slider {
   width: 100%;
-  margin: -40px auto 0px; /* center div */
+  margin: -40px auto 0px;
   padding: 0px;
 }
 
@@ -15,18 +16,20 @@
   height: 350px;
   margin: 50px auto; /* center div */
   padding: 20px 20px 0px 20px;
+  text-align: center;
+  position: relative;
 }
 .quotationStart {
   height: 50px;
   position: absolute;
-  top: 5%;
-  left: 30%;
+  top: -5%;
+  left: 5%;
 }
 .quotationEnd {
   height: 50px;
   position: absolute;
-  top: 85%;
-  left: -30%;
+  top: 95%;
+  left: 90%;
 }
 
 .logo {

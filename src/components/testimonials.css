@@ -1,42 +1,43 @@
 /* TODO not responsive yet  */
 .slick-slider {
-  width: 100%;
-  margin: -40px auto 0px;
+  width: 80%;
+  margin: -0px auto 0px;
   padding: 0px;
 }
 
-.carousel .control-dots .dot {
-  background: #454545;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: var(--ifm-color-primary);
 }
 
 .testimonialBlock {
   background: #fafafa;
   width: 70%;
   height: 350px;
-  margin: 50px auto; /* center div */
-  padding: 20px 20px 0px 20px;
+  margin: 20px auto 30px; /* center div */
+  padding: 30px 20px 0px 20px;
   text-align: center;
   position: relative;
 }
 .quotationStart {
   height: 50px;
   position: absolute;
-  top: -5%;
+  top: -20px;
   left: 5%;
 }
 .quotationEnd {
   height: 50px;
   position: absolute;
-  top: 95%;
-  left: 90%;
+  bottom: -30px;
+  right: 5%;
 }
 
 .logo {
   width: 20%;
+  height: 100px;
   height: auto;
   margin: auto; /* center div */
-  padding: 10px 0px;
+  padding: 0px 0px 10px;
 }
 
 .testimonialBlock h3 {
@@ -54,7 +55,7 @@
   font-size: 15px;
   font-family: sans-serif;
   white-space: pre-line; /* deals with new lines */
-  padding: 0px 10px;
+  padding: 0px 0px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -65,15 +66,6 @@
   .logo {
     width: 40%;
   }
-  .quotationStart {
-    top: 5%;
-    left: 40%;
-  }
-  .quotationEnd {
-    top: 85%;
-    left: -40%;
-  }
-
   .testimonialBlock h3 {
     font-size: 15px;
   }
@@ -82,13 +74,16 @@
     font-size: 14px;
   }
 }
-
-@media only screen and (max-width: 400px) {
-  .testimonialBlock h3 {
-    font-size: 15px;
+@media only screen and (max-width: 600px) {
+  .testimonialBlock {
+    height: 500px;
   }
-
-  .testimonialBlock p {
-    font-size: 12px;
+  .logo {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .testimonialBlock {
+    height: 600px;
   }
 }

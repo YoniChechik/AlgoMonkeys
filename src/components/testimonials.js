@@ -83,6 +83,14 @@ export default function Testimonials() {
         With the help of AlgoMonkeys' knowledge, the process was very efficient. The first milestones we expected to take months were ready nearly instantly. AlgoMonkeys helped us foresee and avoid upcoming complications - providing significant insights regarding camera parameters, robust marker patterns, Illumination, etc. 
         Looking forward to working with AlgoMonkeys again.`}
         />
+        <Testimonial
+          name="Ofek Kirzner"
+          job_title="VP R&D | Talpiot Graduate"
+          image_path="/img/classiq.svg"
+          alt="Classiq logo"
+          text={`Yoni consulted me in the past and I have found his pieces of advice priceless. From the right package for our use, to an algorithmic junction or properties of relevant employees.
+         Yoni's vast experience, open mindedness and willingness to help are key. I am lucky to have him in my network, and I believe you should too.`}
+        />
       </Slider>
     </div>
   );

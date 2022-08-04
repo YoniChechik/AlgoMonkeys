@@ -6,23 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./testimonials.css";
 
-const img = {
-  maxWidth: "100%",
-  maxHeight: "100%",
-};
 const Testimonial = ({ name, job_title, image_path, alt, text }) => {
   return (
     <div className="testimonialBlock">
       <p>{text}</p>
-      <div className="logo">
-        <Image
-          img={image_path}
-          alt={alt}
-          style={img}
-          width={"100%"}
-          height={"100%"}
-        />
-      </div>
+      <Image className="amImg" img={image_path} alt={alt} />
       <h3>
         {name} - {job_title}
       </h3>

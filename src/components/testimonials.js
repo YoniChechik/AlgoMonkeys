@@ -11,9 +11,9 @@ const Testimonial = ({ name, job_title, image_path, alt, text }) => {
     <div className="testimonialBlock">
       <p>{text}</p>
       <Image className="amImg" img={image_path} alt={alt} />
-      <h3>
+      <h2>
         {name} - {job_title}
-      </h3>
+      </h2>
       <img
         className="quotationStart"
         src="/img/quotation.svg"

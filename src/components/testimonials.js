@@ -43,10 +43,16 @@ const Testimonial = ({ name, job_title, image_path, alt, text }) => {
 export default function Testimonials() {
   var settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    // infinite: true,
+    autoplay: true,
+    autoplaySpeed: 6000,
+    arrows: true,
+    draggable: false,
+    swipe: false,
+    touchMove: false,
+    // speed: 700,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
   };
   return (
     <div>
@@ -85,7 +91,7 @@ export default function Testimonials() {
         />
         <Testimonial
           name="Ofek Kirzner"
-          job_title="VP R&D | Talpiot Graduate"
+          job_title="VP R&D"
           image_path="/img/classiq.svg"
           alt="Classiq logo"
           text={`Yoni consulted me in the past and I have found his pieces of advice priceless. From the right package for our use, to an algorithmic junction or properties of relevant employees.

@@ -1,6 +1,7 @@
 /* TODO not responsive yet  */
 .slick-slider {
   width: 80%;
+  max-width: 1280px; /* not overflow to the sides if screen is too big */
   margin: -0px auto 0px;
   padding: 0px;
 }
@@ -10,9 +11,14 @@
   color: var(--ifm-color-primary);
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: var(--ifm-color-primary);
+}
+
 .testimonialBlock {
   background: #fafafa;
-  width: 70%;
+  width: 90%;
   height: 350px;
   margin: 20px auto 30px; /* center div */
   padding: 30px 20px 0px 20px;
@@ -43,7 +49,6 @@
 
 .testimonialBlock h3 {
   color: #222;
-  font-weight: 100;
   letter-spacing: 0.2px;
   font-weight: 600;
   text-transform: uppercase;
@@ -51,7 +56,7 @@
 }
 
 .testimonialBlock p {
-  font-weight: 100;
+  font-weight: 200;
   color: #222;
   font-size: 15px;
   white-space: pre-line; /* deals with new lines */

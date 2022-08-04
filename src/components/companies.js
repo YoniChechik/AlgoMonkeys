@@ -39,7 +39,7 @@ export default function Companies() {
           img="/img/eyecontrol_black.svg"
           alt="EyeControl logo"
         />
-        <Image className="amImg" img="/img/firmus.webp" alt="Firmus logo" />
+        <Image className="amImg" img="/img/firmus.png" alt="Firmus logo" />
         <Image className="amImg" img="/img/mdhair.svg" alt="MDHair logo" />
         <Image className="amImg" img="/img/itc.png" alt="ITC logo" />
         <Image className="amImg" img="/img/medhub.png" alt="MedHub logo" />

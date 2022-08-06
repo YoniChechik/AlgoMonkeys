@@ -12,37 +12,57 @@ export default function Companies() {
       <div class="box">
         <Image
           className="amImg"
-          img="/img/buildots_black.svg"
+          img="/img/logos/buildots_black.svg"
           alt="Buildots logo"
         />
         <Image
           className="amImg"
-          img="/img/deepchecks_black.svg"
+          img="/img/logos/deepchecks_black.svg"
           alt="DeepChecks logo"
         />
-        <Image className="amImg" img="/img/classiq.svg" alt="Classiq logo" />
         <Image
           className="amImg"
-          img="/img/applydesign-logo.png"
+          img="/img/logos/classiq_black.svg"
+          alt="Classiq logo"
+        />
+        <Image
+          className="amImg"
+          img="/img/logos/applydesign_black.png"
           alt="ApplyDesign logo"
         />
         <Image
           className="amImg"
-          img="/img/carevature_black.svg"
+          img="/img/logos/carevature_black.svg"
           alt="Carevature logo"
         />
-        <Image className="amImg" img="/img/clarityo.svg" alt="ClarityO logo" />
-        <Image className="amImg" img="/img/ares.svg" alt="Ares logo" />
-        <Image className="amImg" img="/img/ador.png" alt="AdOr logo" />
         <Image
           className="amImg"
-          img="/img/eyecontrol_black.svg"
+          img="/img/logos/clarityo.svg"
+          alt="ClarityO logo"
+        />
+        <Image className="amImg" img="/img/logos/ares.svg" alt="Ares logo" />
+        <Image className="amImg" img="/img/logos/ador.png" alt="AdOr logo" />
+        <Image
+          className="amImg"
+          img="/img/logos/eyecontrol_black.svg"
           alt="EyeControl logo"
         />
-        <Image className="amImg" img="/img/firmus.png" alt="Firmus logo" />
-        <Image className="amImg" img="/img/mdhair.svg" alt="MDHair logo" />
-        <Image className="amImg" img="/img/itc.png" alt="ITC logo" />
-        <Image className="amImg" img="/img/medhub.png" alt="MedHub logo" />
+        <Image
+          className="amImg"
+          img="/img/logos/firmus_black.png"
+          alt="Firmus logo"
+        />
+        <Image
+          className="amImg"
+          img="/img/logos/mdhair.svg"
+          alt="MDHair logo"
+        />
+        <Image className="amImg" img="/img/logos/itc.svg" alt="ITC logo" />
+        <Image
+          className="amImg"
+          img="/img/logos/medhub_black.png"
+          alt="MedHub logo"
+        />
       </div>
     </section>
   );

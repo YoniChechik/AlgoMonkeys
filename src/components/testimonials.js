@@ -51,7 +51,7 @@ export default function Testimonials() {
         <Testimonial
           name="Yaniv Knoll"
           job_title="CTO"
-          image_path="/img/applydesign-logo.png"
+          image_path="/img/logos/applydesign.png"
           alt="Applydesign logo"
           text={`I had the pleasure of working with AlgoMonkeys this year as part of their computer vision and AI consulting services.
         AlgoMonkeys are at the cutting edge of the current research and tech. They provided an excellent infrastructure for a very complex computer vision algorithm encompassing computer graphics as well.
@@ -61,7 +61,7 @@ export default function Testimonials() {
         <Testimonial
           name="Tal Shulman"
           job_title="CTO"
-          image_path="/img/ares.svg"
+          image_path="/img/logos/ares.svg"
           alt="Ares logo"
           text={`Yoni (AlgoMonkeys) worked with us as part of our team for 6 months project. 
         He brings a lot of experience and knowledge to the team and integrates well with ongoing projects and new ones.
@@ -71,7 +71,7 @@ export default function Testimonials() {
         <Testimonial
           name="Evgeni Machavariani"
           job_title="Senior Architect | Talpiot Graduate"
-          image_path="/img/carevature.svg"
+          image_path="/img/logos/carevature.svg"
           alt="Carevature logo"
           text={`We worked with AlgoMonkeys on a Machine-Vision application for our surgical robot. 
         With the help of AlgoMonkeys' knowledge, the process was very efficient. The first milestones we expected to take months were ready nearly instantly. AlgoMonkeys helped us foresee and avoid upcoming complications - providing significant insights regarding camera parameters, robust marker patterns, Illumination, etc. 
@@ -80,7 +80,7 @@ export default function Testimonials() {
         <Testimonial
           name="Ofek Kirzner"
           job_title="VP R&D"
-          image_path="/img/classiq.svg"
+          image_path="/img/logos/classiq_black.svg"
           alt="Classiq logo"
           text={`Yoni consulted me in the past and I have found his pieces of advice priceless. From the right package for our use, to an algorithmic junction or properties of relevant employees.
          Yoni's vast experience, open mindedness and willingness to help are key. I am lucky to have him in my network, and I believe you should too.`}

@@ -1,4 +1,4 @@
-.AMForm {
+.form {
   background: #8888888f;
   width: 50%;
   margin: 0px auto 20px;
@@ -7,8 +7,8 @@
   text-align: center; /* center the form input fields */
 }
 
-.AMForm input,
-.AMForm textarea {
+.form input,
+.form textarea {
   width: 90%;
   background: white;
   padding: 10px;
@@ -19,18 +19,18 @@
   transition: all 0.2s ease-in-out;
 }
 
-.AMForm textarea {
+.form textarea {
   resize: none;
 }
 
-.AMForm input:hover,
-.AMForm textarea:hover,
-.AMForm input:focus,
-.AMForm textarea:focus {
+.form input:hover,
+.form textarea:hover,
+.form input:focus,
+.form textarea:focus {
   background: rgba(255, 255, 255, 0.1);
   outline: none;
 }
 
-.AMForm ::placeholder {
+.form ::placeholder {
   color: rgb(107, 107, 107);
 }

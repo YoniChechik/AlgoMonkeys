@@ -1,21 +1,21 @@
-.AMContainer {
+.container {
   width: 100%;
   padding: 20px 0px 0px 0px;
 }
 
-.AMTitle {
+.title {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: flex-start;
 }
 
-.AMTitle h1 {
+.title h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   color: #000000;
 }
 
-.AMTitle h1 span {
+.title h1 span {
   font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #ef1385;

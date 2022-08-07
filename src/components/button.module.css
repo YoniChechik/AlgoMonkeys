@@ -1,6 +1,6 @@
 /* from: https://stackoverflow.com/questions/17212094/fill-background-color-left-to-right-css/17212432#17212432 */
 
-.custom-btn {
+.btn {
   border-radius: 5px;
   cursor: pointer;
 
@@ -15,11 +15,11 @@
   padding: 5px 20px 5px 20px;
 }
 
-.custom-btn:hover {
+.btn:hover {
   background-position: left;
 }
 
-.main-pink {
+.main_pink {
   color: white;
 
   background: linear-gradient(45deg, #ef1385 45%, #f4f729 45%, #f4f729 55%, #ef1385 55%) right;
@@ -28,7 +28,7 @@
   transition: 0.5s ease;
 }
 
-.main-yellow {
+.main_yellow {
   color: black;
 
   background: linear-gradient(45deg, #f4f729 45%, #ef1385 45%, #ef1385 55%, #f4f729 55%) right;
@@ -38,10 +38,10 @@
 }
 
 /* Fix docusaurus Link */
-.custom-link {
+.custom_link {
   color: inherit;
 }
-.custom-link:hover {
+.custom_link:hover {
   text-decoration: none;
   color: inherit;
 }

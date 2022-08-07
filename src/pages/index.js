@@ -3,7 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Testimonials from "../components/testimonials";
 import ContactUs from "../components/contact_us";
-import AMHero from "../components/am_hero";
+import AMHero from "../components/hero";
 import Companies from "../components/companies";
 import WhatWeDo from "../components/what_we_do";
 

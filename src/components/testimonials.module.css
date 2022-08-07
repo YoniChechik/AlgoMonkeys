@@ -1,4 +1,3 @@
-/* TODO not responsive yet  */
 .slick-slider {
   width: 80%;
   max-width: 1280px; /* not overflow to the sides if screen is too big */
@@ -16,7 +15,7 @@
   color: var(--ifm-color-primary);
 }
 
-.testimonialBlock {
+.block {
   background: #fafafa;
   width: 90%;
   height: 350px;
@@ -39,7 +38,7 @@
   right: 5%;
 }
 
-.amImg {
+.img {
   object-fit: contain;
   width: 30%;
   height: 80px;
@@ -47,7 +46,7 @@
   padding: 0px 0px 10px;
 }
 
-.testimonialBlock h2 {
+.block h2 {
   color: #222;
   letter-spacing: 0.2px;
   font-weight: 600;
@@ -55,7 +54,7 @@
   font-size: 17px;
 }
 
-.testimonialBlock p {
+.block p {
   font-weight: 200;
   color: #222;
   font-size: 15px;
@@ -64,30 +63,30 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .testimonialBlock {
+  .block {
     height: 400px;
     width: 95%;
   }
 
-  .testimonialBlock h2 {
+  .block h2 {
     font-size: 15px;
   }
 
-  .testimonialBlock p {
+  .block p {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 600px) {
-  .testimonialBlock {
+  .block {
     height: 500px;
   }
-  .amImg {
+  .img {
     width: 60%;
     height: 40px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .testimonialBlock {
+  .block {
     height: 600px;
   }
 }

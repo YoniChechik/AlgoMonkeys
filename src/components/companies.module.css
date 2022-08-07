@@ -1,4 +1,4 @@
-.companies-container {
+.container {
   background-color: #e7e7e7;
 
   align-items: center;
@@ -15,7 +15,7 @@
   margin: auto;
 }
 
-.amImg {
+.img {
   object-fit: contain;
   width: 25%;
   height: 60px;
@@ -24,12 +24,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .amImg {
+  .img {
     width: 33%;
   }
 }
 @media only screen and (max-width: 600px) {
-  .amImg {
+  .img {
     width: 50%;
   }
 }

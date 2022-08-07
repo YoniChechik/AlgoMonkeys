@@ -1,27 +1,31 @@
 import React from "react";
-import "./what_we_do.css";
+import styles from "./what_we_do.module.css";
 import Title, { PinkPart } from "./title";
+import Image from "@theme/IdealImage";
+
+const DoBlock = ({ title, image_path, alt, text }) => {
+  return (
+    <div className={styles.block}>
+      <div className={styles.title_and_icon}>
+        <Image className={styles.icon} img={image_path} alt={alt} />
+        <h2>{title}</h2>
+      </div>
+      <p>{text}</p>
+    </div>
+  );
+};
 
 export default function WhatWeDo() {
   return (
-    <section className="companies-container">
+    <section className={styles.container}>
       <Title>
-        Happy <PinkPart>Costumers</PinkPart>
+        What We <PinkPart>Do Best</PinkPart>
       </Title>
-      <div class="box">
-        <Image className="amImg" img="/img/logos/buildots_black.svg" alt="Buildots logo" />
-        <Image className="amImg" img="/img/logos/deepchecks_black.svg" alt="DeepChecks logo" />
-        <Image className="amImg" img="/img/logos/classiq_black.svg" alt="Classiq logo" />
-        <Image className="amImg" img="/img/logos/applydesign_black.png" alt="ApplyDesign logo" />
-        <Image className="amImg" img="/img/logos/carevature_black.svg" alt="Carevature logo" />
-        <Image className="amImg" img="/img/logos/clarityo.svg" alt="ClarityO logo" />
-        <Image className="amImg" img="/img/logos/ares.svg" alt="Ares logo" />
-        <Image className="amImg" img="/img/logos/ador.png" alt="AdOr logo" />
-        <Image className="amImg" img="/img/logos/eyecontrol_black.svg" alt="EyeControl logo" />
-        <Image className="amImg" img="/img/logos/firmus_black.png" alt="Firmus logo" />
-        <Image className="amImg" img="/img/logos/mdhair.svg" alt="MDHair logo" />
-        <Image className="amImg" img="/img/logos/itc.svg" alt="ITC logo" />
-        <Image className="amImg" img="/img/logos/medhub_black.png" alt="MedHub logo" />
+      <div className={styles.box}>
+        <DoBlock title="Computer Vision" image_path="/img/icon.svg" alt="icon" text={`test text.`} />
+        <DoBlock title="Computer Vision" image_path="/img/icon.svg" alt="icon" text={`test text.`} />
+        <DoBlock title="Computer Vision" image_path="/img/icon.svg" alt="icon" text={`test text.`} />
+        <DoBlock title="Computer Vision" image_path="/img/icon.svg" alt="icon" text={`test text.`} />
       </div>
     </section>
   );

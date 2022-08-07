@@ -1,11 +1,11 @@
 import React from "react";
-import "./button.css";
+import styles from "./button.module.css";
 import Link from "@docusaurus/Link";
 
 export default function Button(props) {
   return (
-    <button className={`custom-btn ${props.type}`}>
-      <Link className="custom-link" to={props.to}>
+    <button className={`${styles.btn} ${styles[props.type]}`}>
+      <Link className={styles.custom_link} to={props.to}>
         {props.children}
       </Link>
     </button>

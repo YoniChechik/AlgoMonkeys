@@ -14,9 +14,8 @@ export default function AMHero() {
             Your <PinkPart>Algo Team</PinkPart> for Hire
           </Title>
           <p>
-            We are passionate about providing cutting-edge solutions for our
-            clients' needs in the fields of algorithms, neural networks and
-            computer vision through freelance services or consulting.
+            We are passionate about providing cutting-edge solutions for our clients' needs in the fields of algorithms,
+            neural networks and computer vision through freelance services or consulting.
           </p>
           <div className="am-hero-btns">
             <Button to={"/#contact_us"} type={"main-pink"}>
@@ -28,12 +27,7 @@ export default function AMHero() {
           </div>
         </div>
         <div className="am-hero-img">
-          <img
-            src="/img/programer_monkey.svg"
-            alt="programer monkey"
-            width="100%"
-            height="100%"
-          />
+          <img src="/img/programer_monkey.svg" alt="programer monkey" width="100%" height="100%" />
         </div>
       </section>
     </header>

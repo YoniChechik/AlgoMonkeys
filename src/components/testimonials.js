@@ -14,16 +14,8 @@ const Testimonial = ({ name, job_title, image_path, alt, text }) => {
       <h2>
         {name} - {job_title}
       </h2>
-      <img
-        className="quotationStart"
-        src="/img/quotation.svg"
-        alt="quotation start"
-      />
-      <img
-        className="quotationEnd"
-        src="/img/quotation.svg"
-        alt="quotation end"
-      />
+      <img className="quotationStart" src="/img/quotation.svg" alt="quotation start" />
+      <img className="quotationEnd" src="/img/quotation.svg" alt="quotation end" />
     </div>
   );
 };

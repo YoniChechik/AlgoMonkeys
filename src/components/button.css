@@ -22,14 +22,7 @@
 .main-pink {
   color: white;
 
-  background: linear-gradient(
-      45deg,
-      #ef1385 45%,
-      #f4f729 45%,
-      #f4f729 55%,
-      #ef1385 55%
-    )
-    right;
+  background: linear-gradient(45deg, #ef1385 45%, #f4f729 45%, #f4f729 55%, #ef1385 55%) right;
   background-size: 300% 100%;
 
   transition: 0.5s ease;
@@ -38,14 +31,7 @@
 .main-yellow {
   color: black;
 
-  background: linear-gradient(
-      45deg,
-      #f4f729 45%,
-      #ef1385 45%,
-      #ef1385 55%,
-      #f4f729 55%
-    )
-    right;
+  background: linear-gradient(45deg, #f4f729 45%, #ef1385 45%, #ef1385 55%, #f4f729 55%) right;
   background-size: 300% 100%;
 
   transition: 0.5s ease;

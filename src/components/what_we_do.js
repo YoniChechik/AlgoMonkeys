@@ -1,9 +1,8 @@
 import React from "react";
-import "./companies.css";
+import "./what_we_do.css";
 import Title, { PinkPart } from "./title";
-import Image from "@theme/IdealImage";
 
-export default function Companies() {
+export default function WhatWeDo() {
   return (
     <section className="companies-container">
       <Title>

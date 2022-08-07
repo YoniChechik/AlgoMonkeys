@@ -5,6 +5,7 @@ import Testimonials from "../components/testimonials";
 import ContactUs from "../components/contact_us";
 import AMHero from "../components/am_hero";
 import Companies from "../components/companies";
+import WhatWeDo from "../components/what_we_do";
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -12,6 +13,7 @@ export default function Home() {
     <Layout description={`${siteConfig.title}: ${siteConfig.tagline}`}>
       <AMHero />
       <main>
+        <WhatWeDo />
         <Companies />
         <Testimonials />
         <ContactUs />

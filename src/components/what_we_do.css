@@ -1,0 +1,35 @@
+.companies-container {
+  background-color: #e7e7e7;
+
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  width: 80%;
+  max-width: 1280px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.amImg {
+  object-fit: contain;
+  width: 25%;
+  height: 60px;
+  margin: auto;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .amImg {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .amImg {
+    width: 50%;
+  }
+}

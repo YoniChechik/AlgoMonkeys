@@ -19,11 +19,7 @@ export default function ContactUs() {
       >
         <input type="text" name="name" placeholder="Name*" required />
         <input type="email" name="email" placeholder="Email*" required />
-        <textarea
-          placeholder="Want to add something about your problem?"
-          name="message"
-          rows="5"
-        />
+        <textarea placeholder="Want to add something about your problem?" name="message" rows="5" />
         <button className="custom-btn main-pink" type="submit">
           Send
         </button>

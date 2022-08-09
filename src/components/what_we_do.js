@@ -21,16 +21,16 @@ const slam_div = () => {
       <p>Algorithmic work on all kind of 3D and SLAM problems:</p>
       <ul>
         <li>3D reconstruction</li>
-        <li>measurements</li>
-        <li>localization</li>
-        <li>mapping</li>
+        <li>Measurements</li>
+        <li>Localization</li>
+        <li>Mapping</li>
         <li>etc...</li>
       </ul>
       <p>Prior work all main 3D cameras:</p>
       <ul>
         <li>RealSense (Stereo, structured light, LiDAR)</li>
-        <li> Kinect (azure, 360)</li>
-        <li>camera phones (stereo, iPhone Lidar)</li>
+        <li>Kinect (azure, 360)</li>
+        <li>Other camera phones (stereo, iPhone Lidar)</li>
       </ul>
     </div>
   );
@@ -41,12 +41,12 @@ const cv_div = () => {
     <div>
       <p>Specializing in neural networks as well as classic computer vision:</p>
       <ul>
-        <li>classification</li>
-        <li>object detection & tracking</li>
-        <li>segmentation</li>
-        <li>face recognition</li>
-        <li>pose estimation</li>
-        <li>feature extraction & matching</li>
+        <li>Classification</li>
+        <li>Object detection & tracking</li>
+        <li>Segmentation</li>
+        <li>Face recognition</li>
+        <li>Pose estimation</li>
+        <li>Feature extraction & matching</li>
         <li>OCR (optical charater recognition)</li>
         <li>etc...</li>
       </ul>

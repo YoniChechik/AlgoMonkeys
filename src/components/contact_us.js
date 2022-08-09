@@ -6,7 +6,7 @@ import Title, { PinkPart } from "./title";
 export default function ContactUs() {
   return (
     // id for anchor link
-    <div id="contact_us">
+    <div id="contact_us" className={styles.contact_us_container}>
       <Title>
         Let's <PinkPart>Talk</PinkPart>
       </Title>

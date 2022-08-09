@@ -1,4 +1,9 @@
 /* TODO fix css */
+.contact_us_container {
+  max-width: 1280px;
+  margin: auto;
+}
+
 .form {
   background: #8888888f;
   width: 50%;

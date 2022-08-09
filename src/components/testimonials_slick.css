@@ -1,7 +1,7 @@
 .slick-slider {
   width: 80%;
   max-width: 1280px; /* not overflow to the sides if screen is too big */
-  margin: -0px auto 0px;
+  margin: 0px auto 40px;
   padding: 0px;
 }
 

@@ -5,7 +5,7 @@ import Image from "@theme/IdealImage";
 
 const DoBlock = ({ title, image_path, alt, text_div }) => {
   return (
-    <div className={styles.block}>
+    <div className={styles.flex_block}>
       <div className={styles.title_and_icon}>
         <Image className={styles.icon} img={image_path} alt={alt} />
         <h2>{title}</h2>
@@ -59,7 +59,7 @@ export default function WhatWeDo() {
       <Title>
         What We <PinkPart>Do Best</PinkPart>
       </Title>
-      <div className={styles.box}>
+      <div className={styles.flex_list}>
         <DoBlock
           title="Computer Vision"
           image_path="/img/what_we_do_icons/eye.svg"

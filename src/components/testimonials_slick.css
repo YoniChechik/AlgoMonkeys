@@ -1,0 +1,16 @@
+.slick-slider {
+  width: 80%;
+  max-width: 1280px; /* not overflow to the sides if screen is too big */
+  margin: -0px auto 0px;
+  padding: 0px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: var(--ifm-color-primary);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--ifm-color-primary);
+}

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import styles from "./testimonials.module.css";
+import "./testimonials_slick.css";
 
 const Testimonial = ({ name, job_title, image_path, alt, text }) => {
   return (

@@ -9,7 +9,7 @@ export default function Companies() {
       <Title>
         Happy <PinkPart>Costumers</PinkPart>
       </Title>
-      <div className="box">
+      <div className={styles.box}>
         <Image className={styles.img} img="/img/logos/buildots_black.svg" alt="Buildots logo" />
         <Image className={styles.img} img="/img/logos/deepchecks_black.svg" alt="DeepChecks logo" />
         <Image className={styles.img} img="/img/logos/classiq_black.svg" alt="Classiq logo" />

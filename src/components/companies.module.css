@@ -6,7 +6,7 @@
   padding: 10px;
 }
 
-.box {
+.flex_list {
   display: flex;
   width: 80%;
   max-width: 1280px;

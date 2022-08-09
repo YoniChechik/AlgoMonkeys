@@ -60,12 +60,22 @@ export default function WhatWeDo() {
         What We <PinkPart>Do Best</PinkPart>
       </Title>
       <div className={styles.box}>
-        <DoBlock title="Computer Vision" image_path="/img/eye.svg" alt="eye icon" text_div={cv_div()} />
-        <DoBlock title="3D & SLAM" image_path="/img/ar.svg" alt="3D icon" text_div={slam_div()} />
-        <DoBlock title="Data Science" image_path="/img/data.svg" alt="data science icon" text={`test text.`} />
+        <DoBlock
+          title="Computer Vision"
+          image_path="/img/what_we_do_icons/eye.svg"
+          alt="eye icon"
+          text_div={cv_div()}
+        />
+        <DoBlock title="3D & SLAM" image_path="/img/what_we_do_icons/ar.svg" alt="3D icon" text_div={slam_div()} />
+        <DoBlock
+          title="Data Science"
+          image_path="/img/what_we_do_icons/data.svg"
+          alt="data science icon"
+          text={`test text.`}
+        />
         <DoBlock
           title="Idea to Production"
-          image_path="/img/cloud_chip.svg"
+          image_path="/img/what_we_do_icons/cloud_chip.svg"
           alt="cloud and chip icon"
           text={`test text.`}
         />

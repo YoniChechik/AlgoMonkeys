@@ -79,7 +79,7 @@ const config = {
 
         logo: {
           alt: "AlgoMonkeys Logo",
-          src: "img/logo_light.svg",
+          src: "img/algomonkeys_logo.svg",
           width: "100%",
           height: "100%",
         },

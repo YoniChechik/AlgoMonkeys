@@ -10,7 +10,7 @@ export default function AMHero() {
     <header className={styles.hero_container}>
       <section className={styles.hero}>
         <div className={styles.hero_details}>
-          <Title>
+          <Title is_main={true}>
             Your <PinkPart>Algo Team</PinkPart> for Hire
           </Title>
           <p>

@@ -3,20 +3,25 @@
   padding: 20px 0px 0px 0px;
 }
 
-.title {
+.flex_line {
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: flex-start;
 }
 
-.title h1 {
+.h1 {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   color: #000000;
+  font-size: 24px;
+}
+.main {
+  font-size: 60px;
+  justify-content: left;
 }
 
-.title h1 span {
-  font-family: "Nunito", sans-serif;
+span {
+  /* font-family: "Nunito", sans-serif; */
   font-weight: 700;
   color: #ef1385;
 }
@@ -25,4 +30,9 @@
   height: 20px;
   width: auto;
   margin: 0px 0px 0px 5px;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    font-size: 30px;
+  }
 }

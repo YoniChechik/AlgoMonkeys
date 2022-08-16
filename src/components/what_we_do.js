@@ -6,7 +6,7 @@ const DoBlock = ({ title, svg_path, alt, text_div }) => {
   return (
     <div className={styles.flex_block}>
       <div className={styles.title_and_icon}>
-        <img className={styles.icon} src={svg_path} alt={alt} />
+        <img className={styles.icon} src={svg_path} alt={alt} height="100%" width="100%" />
         <h2>{title}</h2>
       </div>
       {text_div}

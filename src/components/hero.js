@@ -5,7 +5,7 @@ import styles from "./hero.module.css";
 import Title, { PinkPart } from "./title";
 import Button from "./button";
 
-export default function AMHero() {
+export default function Hero() {
   return (
     <header className={styles.hero_container}>
       <section className={styles.hero}>
@@ -21,12 +21,12 @@ export default function AMHero() {
             <Button to={"/#contact_us"} type={"main_pink"}>
               Contact Us
             </Button>
-            <Button to={"/docs/course_intro"} type={"main_yellow"}>
+            <Button to={"/docs/intro"} type={"main_yellow"}>
               Learn Computer Vision
             </Button>
           </div>
         </div>
-        <div className={styles.hero_mg}>
+        <div className={styles.hero_img}>
           <img src="/img/programer_monkey.svg" alt="programer monkey" width="100%" height="100%" />
         </div>
       </section>

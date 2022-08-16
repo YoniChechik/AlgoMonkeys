@@ -24,5 +24,5 @@ export default function Title(props) {
 }
 
 export const PinkPart = (props) => {
-  return <span>{props.children}</span>;
+  return <span className={styles.span}>{props.children}</span>;
 };

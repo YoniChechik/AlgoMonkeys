@@ -24,8 +24,7 @@
   }
 }
 
-span {
-  /* font-family: "Nunito", sans-serif; */
+.span {
   font-weight: 700;
   color: #ef1385;
 }

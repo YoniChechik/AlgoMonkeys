@@ -14,8 +14,8 @@ export default function Home() {
     <Layout description={`${siteConfig.title}: ${siteConfig.tagline}`}>
       <Hero />
       <main>
-        <About />
-        <WhatWeDo />
+        {/* <About /> */}
+        {/* <WhatWeDo /> */}
         <Companies />
         <Testimonials />
         <ContactUs />

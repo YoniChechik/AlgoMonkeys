@@ -4,26 +4,19 @@ import Title, { PinkPart } from "./title";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import "./testimonials.css";
+import styles from "./testimonials.module.css";
+import "./testimonials_slick.css";
 
 const Testimonial = ({ name, job_title, image_path, alt, text }) => {
   return (
-    <div className="testimonialBlock">
+    <div className={styles.flex_block}>
       <p>{text}</p>
-      <Image className="amImg" img={image_path} alt={alt} />
+      <Image className={styles.img} img={image_path} alt={alt} />
       <h2>
         {name} - {job_title}
       </h2>
-      <img
-        className="quotationStart"
-        src="/img/quotation.svg"
-        alt="quotation start"
-      />
-      <img
-        className="quotationEnd"
-        src="/img/quotation.svg"
-        alt="quotation end"
-      />
+      <img className={styles.quotationStart} src="/img/quotation.svg" alt="quotation start" />
+      <img className={styles.quotationEnd} src="/img/quotation.svg" alt="quotation end" />
     </div>
   );
 };

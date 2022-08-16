@@ -1,0 +1,42 @@
+/* TODO fix css */
+.contact_us_container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.form {
+  background: #8888888f;
+  width: 50%;
+  margin: 0px auto 20px;
+  height: auto;
+
+  text-align: center; /* center the form input fields */
+}
+
+.form input,
+.form textarea {
+  width: 90%;
+  background: white;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.form textarea {
+  resize: none;
+}
+
+.form input:hover,
+.form textarea:hover,
+.form input:focus,
+.form textarea:focus {
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+.form ::placeholder {
+  color: rgb(107, 107, 107);
+}

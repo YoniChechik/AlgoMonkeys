@@ -1,0 +1,75 @@
+.flex_block {
+  background: #fafafa;
+  width: 90%;
+  height: 350px;
+  margin: 20px auto 30px; /* center div */
+  padding: 30px 20px 0px 20px;
+  text-align: center;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+.quotationStart {
+  height: 50px;
+  position: absolute;
+  top: -20px;
+  left: 5%;
+}
+.quotationEnd {
+  height: 50px;
+  position: absolute;
+  bottom: -30px;
+  right: 5%;
+}
+
+.img {
+  object-fit: contain;
+  width: 30%;
+  height: 80px;
+  margin: auto;
+  padding: 0px 0px 10px;
+}
+
+.flex_block h2 {
+  color: #222;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.flex_block p {
+  font-weight: 200;
+  color: #222;
+  font-size: 15px;
+  white-space: pre-line; /* deals with new lines */
+  padding: 0px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flex_block {
+    height: 400px;
+    width: 95%;
+  }
+
+  .flex_block h2 {
+    font-size: 15px;
+  }
+
+  .flex_block p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flex_block {
+    height: 500px;
+  }
+  .img {
+    width: 60%;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .flex_block {
+    height: 600px;
+  }
+}

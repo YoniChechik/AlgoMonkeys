@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+}
+
+.flex_line {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: flex-start;
+}
+
+.h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 24px;
+}
+.main {
+  font-size: 60px;
+  justify-content: left;
+}
+
+span {
+  /* font-family: "Nunito", sans-serif; */
+  font-weight: 700;
+  color: #ef1385;
+}
+
+.ThreeDots {
+  height: 20px;
+  width: auto;
+  margin: 0px 0px 0px 5px;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    font-size: 30px;
+  }
+}

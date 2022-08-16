@@ -11,7 +11,7 @@ const Testimonial = ({ name, job_title, image_path, alt, text }) => {
   return (
     <div className={styles.flex_block}>
       <p>{text}</p>
-      <Image className={styles.img} img={image_path} alt={alt} />
+      <Image className={styles.img} img={require(image_path)} alt={alt} />
       <h2>
         {name} - {job_title}
       </h2>

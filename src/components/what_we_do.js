@@ -7,7 +7,7 @@ const DoBlock = ({ title, image_path, alt, text_div }) => {
   return (
     <div className={styles.flex_block}>
       <div className={styles.title_and_icon}>
-        <Image className={styles.icon} img={image_path} alt={alt} />
+        <Image className={styles.icon} img={require(image_path)} alt={alt} />
         <h2>{title}</h2>
       </div>
       {text_div}

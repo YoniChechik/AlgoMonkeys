@@ -28,7 +28,7 @@ export default function About() {
           </p>
         </div>
         <div className={styles.hero_img}>
-          <Image className={styles.img} img="/img/yoni.png" alt="Yoni Chechik image in AlgoMonkeys logo" />
+          <Image className={styles.img} img={require("/img/yoni.png")} alt="Yoni Chechik image in AlgoMonkeys logo" />
         </div>
       </section>
     </header>

@@ -1,12 +1,13 @@
 import React from "react";
 import styles from "./what_we_do.module.css";
 import Title, { PinkPart } from "./title";
+import Image from "@theme/IdealImage";
 
 const DoBlock = ({ title, svg_path, alt, text_div }) => {
   return (
     <div className={styles.flex_block}>
       <div className={styles.title_and_icon}>
-        <img className={styles.icon} img={svg_path} alt={alt} />
+        <Image className={styles.icon} img={svg_path} alt={alt} />
         <h2>{title}</h2>
       </div>
       {text_div}
@@ -93,17 +94,22 @@ export default function WhatWeDo() {
         What We <PinkPart>Do Best</PinkPart>
       </Title>
       <div className={styles.flex_list}>
-        <DoBlock title="Computer Vision" svg_path="/img/what_we_do_icons/eye.svg" alt="eye icon" text_div={cv_div()} />
-        <DoBlock title="3D & SLAM" svg_path="/img/what_we_do_icons/ar.svg" alt="3D icon" text_div={slam_div()} />
+        <DoBlock
+          title="Computer Vision"
+          svg_path={"/img/what_we_do_icons/eye.svg"}
+          alt="eye icon"
+          text_div={cv_div()}
+        />
+        <DoBlock title="3D & SLAM" svg_path={"/img/what_we_do_icons/ar.svg"} alt="3D icon" text_div={slam_div()} />
         <DoBlock
           title="Data Science"
-          svg_path="/img/what_we_do_icons/data.svg"
+          svg_path={"/img/what_we_do_icons/data.svg"}
           alt="data science icon"
           text_div={ds_div()}
         />
         <DoBlock
           title="Idea to Production"
-          svg_path="/img/what_we_do_icons/cloud_chip.svg"
+          svg_path={"/img/what_we_do_icons/cloud_chip.svg"}
           alt="cloud and chip icon"
           text_div={prod_div()}
         />

@@ -1,0 +1,37 @@
+{
+    "name": "AlgoMonkeys",
+    "short_name": "AlgoMonkeys",
+    "theme_color": "#de177e",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://www.algomonkeys.io/manifest.json"
+        }
+    ],
+    "icons": [
+        {
+            "src": "img/manifest_icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/manifest_icons/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/manifest_icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "img/manifest_icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

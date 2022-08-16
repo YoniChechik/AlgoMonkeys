@@ -35,6 +35,7 @@
   color: #000000;
   max-width: 36rem;
   line-height: 1.625;
+  font-size: 20px;
 }
 @media (min-width: 640px) {
   .hero_container .hero .hero_details p {

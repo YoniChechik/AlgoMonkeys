@@ -14,8 +14,8 @@ export default function Hero() {
             Your <PinkPart>Algo Team</PinkPart> for Hire
           </Title>
           <p>
-            We are passionate about providing cutting-edge solutions for our clients' needs in the fields of algorithms,
-            neural networks and computer vision through freelance services or consulting.
+            Providing cutting-edge solutions for our clients' needs in the fields of algorithms, neural networks and
+            computer vision through freelance services or consulting.
           </p>
           <div className={styles.hero_btns}>
             <Button to={"/#contact_us"} type={"main_pink"}>

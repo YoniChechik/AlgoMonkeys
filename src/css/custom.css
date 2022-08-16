@@ -6,16 +6,19 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ef1385;
-  --ifm-color-primary-dark: #d90f78;
-  --ifm-color-primary-darker: #cd0e71;
-  --ifm-color-primary-darkest: #a90b5d;
-  --ifm-color-primary-light: #f12b91;
-  --ifm-color-primary-lighter: #f13798;
-  --ifm-color-primary-lightest: #f45baa;
+  --ifm-color-primary: #de177e;
+  --ifm-color-primary-dark: #c81571;
+  --ifm-color-primary-darker: #bd146b;
+  --ifm-color-primary-darkest: #9b1058;
+  --ifm-color-primary-light: #e8258a;
+  --ifm-color-primary-lighter: #ea3090;
+  --ifm-color-primary-lightest: #ed51a2;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-footer-background-color: #dbdbdb;
+  --ifm-footer-background-color: #2b3137;
+  --ifm-footer-link-color: #ebedf0;
+  --ifm-footer-color: var(--ifm-footer-link-color);
+  --ifm-navbar-link-color: var(--ifm-color-primary);
 }
 
 /* ===== import nunito font

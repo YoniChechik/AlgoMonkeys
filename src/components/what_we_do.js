@@ -26,7 +26,7 @@ const slam_div = () => {
         <li>Mapping</li>
         <li>etc...</li>
       </ul>
-      <p>Prior work all main 3D cameras:</p>
+      <p>Prior work with all main 3D cameras:</p>
       <ul>
         <li>RealSense (Stereo, structured light, LiDAR)</li>
         <li>Kinect (azure, 360)</li>
@@ -53,6 +53,40 @@ const cv_div = () => {
     </div>
   );
 };
+
+const ds_div = () => {
+  return (
+    <div>
+      <p>Extracting insights from structured data using machine learning and math:</p>
+      <ul>
+        <li>Classification</li>
+        <li>Regression</li>
+        <li>Unsupervised learning (e.g. clustering)</li>
+        <li>Time series forecasting</li>
+        {/* <li>Reinforcement learning</li> */}
+        <li>Decision trees</li>
+        <li>etc...</li>
+      </ul>
+    </div>
+  );
+};
+
+const prod_div = () => {
+  return (
+    <div>
+      <p>
+        We helped companies from pre-seed to houndreds of employees & from ideation to production!
+        <br />
+        We can sit at round tables and consult about the algo pipeline architecture, build it from MVP to scale, and
+        deploy it to the cloud or on edge devices.
+        <br />
+        As freelancer we know that some companies would like a full time employees, so we can help recruit them while
+        advencing the product in the meantime
+      </p>
+    </div>
+  );
+};
+
 export default function WhatWeDo() {
   return (
     <section className={styles.container}>
@@ -71,13 +105,13 @@ export default function WhatWeDo() {
           title="Data Science"
           image_path="/img/what_we_do_icons/data.svg"
           alt="data science icon"
-          text={`test text.`}
+          text_div={ds_div()}
         />
         <DoBlock
           title="Idea to Production"
           image_path="/img/what_we_do_icons/cloud_chip.svg"
           alt="cloud and chip icon"
-          text={`test text.`}
+          text_div={prod_div()}
         />
       </div>
     </section>

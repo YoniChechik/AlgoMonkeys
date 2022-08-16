@@ -91,7 +91,7 @@ const config = {
           },
           {
             type: "doc",
-            docId: "course_intro",
+            docId: "intro",
             position: "right",
             label: "Learn Computer Vision",
           },

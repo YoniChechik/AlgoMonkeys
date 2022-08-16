@@ -115,7 +115,7 @@ const config = {
               },
               {
                 label: "Learn Computer Vision",
-                to: "/docs/course_intro",
+                to: "/docs/intro",
               },
             ],
           },

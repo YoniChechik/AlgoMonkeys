@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./what_we_do.module.css";
 import Title, { PinkPart } from "./title";
-import Image from "@theme/IdealImage";
 
 const DoBlock = ({ title, svg_path, alt, text_div }) => {
   return (
     <div className={styles.flex_block}>
       <div className={styles.title_and_icon}>
-        <Image className={styles.icon} img={svg_path} alt={alt} />
+        <img className={styles.icon} src={svg_path} alt={alt} />
         <h2>{title}</h2>
       </div>
       {text_div}

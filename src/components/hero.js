@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./hero.module.css";
 import Title, { PinkPart } from "./title";
 import Button from "./button";
+import ProgramerMonkey from "@site/static/img/programer_monkey.svg";
 
 export default function Hero() {
   return (
@@ -27,7 +28,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles.hero_img}>
-          <img src="/img/programer_monkey.svg" alt="programer monkey" width="100%" height="100%" />
+          <ProgramerMonkey title="programer monkey" />
         </div>
       </section>
     </header>

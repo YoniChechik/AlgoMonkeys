@@ -2,6 +2,15 @@ import React from "react";
 import styles from "./companies.module.css";
 import Title, { PinkPart } from "./title";
 import Image from "@theme/IdealImage";
+import BuildotsLogo from "@site/static/img/logos/buildots_black.svg";
+import DeepchecksLogo from "@site/static/img/logos/deepchecks_black.svg";
+import ClassiqLogo from "@site/static/img/logos/classiq_black.svg";
+import CarevatureLogo from "@site/static/img/logos/carevature_black.svg";
+import ClarityoLogo from "@site/static/img/logos/clarityo.svg";
+import AresLogo from "@site/static/img/logos/ares.svg";
+import EyeControlLogo from "@site/static/img/logos/eyeControl_black.svg";
+import MDHairLogo from "@site/static/img/logos/mdhair.svg";
+import ITCLogo from "@site/static/img/logos/itc.svg";
 
 export default function Companies() {
   return (
@@ -10,48 +19,18 @@ export default function Companies() {
         Happy <PinkPart>Costumers</PinkPart>
       </Title>
       <div className={styles.flex_list}>
-        <img
-          className={styles.img}
-          src={"/img/logos/buildots_black.svg"}
-          height="100%"
-          width="100%"
-          alt="Buildots logo"
-        />
-        <img
-          className={styles.img}
-          src={"/img/logos/deepchecks_black.svg"}
-          height="100%"
-          width="100%"
-          alt="DeepChecks logo"
-        />
-        <img
-          className={styles.img}
-          src={"/img/logos/classiq_black.svg"}
-          height="100%"
-          width="100%"
-          alt="Classiq logo"
-        />
+        <BuildotsLogo title="Buildots logo" className={styles.img} />
+        <DeepchecksLogo title="DeepChecks logo" className={styles.img} />
+        <ClassiqLogo title="Classiq logo" className={styles.img} />
         <Image className={styles.img} img={require("/img/logos/applydesign_black.png")} alt="ApplyDesign logo" />
-        <img
-          className={styles.img}
-          src={"/img/logos/carevature_black.svg"}
-          height="100%"
-          width="100%"
-          alt="Carevature logo"
-        />
-        <img className={styles.img} src={"/img/logos/clarityo.svg"} height="100%" width="100%" alt="ClarityO logo" />
-        <img className={styles.img} src={"/img/logos/ares.svg"} height="100%" width="100%" alt="Ares logo" />
+        <CarevatureLogo title="Carevature logo" className={styles.img} />
+        <ClarityoLogo title="Clarityo logo" className={styles.img} />
+        <AresLogo title="Ares logo" className={styles.img} />
         <Image className={styles.img} img={require("/img/logos/ador.png")} alt="AdOr logo" />
-        <img
-          className={styles.img}
-          src={"/img/logos/eyecontrol_black.svg"}
-          height="100%"
-          width="100%"
-          alt="EyeControl logo"
-        />
+        <EyeControlLogo title="EyeControl logo" className={styles.img} />
         <Image className={styles.img} img={require("/img/logos/firmus_black.png")} alt="Firmus logo" />
-        <img className={styles.img} src={"/img/logos/mdhair.svg"} height="100%" width="100%" alt="MDHair logo" />
-        <img className={styles.img} src={"/img/logos/itc.svg"} height="100%" width="100%" alt="ITC logo" />
+        <MDHairLogo title="MDHair logo" className={styles.img} />
+        <ITCLogo title="ITC logo" className={styles.img} />
         <Image className={styles.img} img={require("/img/logos/medhub_black.png")} alt="MedHub logo" />
       </div>
     </section>

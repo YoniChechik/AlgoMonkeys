@@ -8,7 +8,7 @@ import ClassiqLogo from "@site/static/img/logos/classiq_black.svg";
 import CarevatureLogo from "@site/static/img/logos/carevature_black.svg";
 import ClarityoLogo from "@site/static/img/logos/clarityo.svg";
 import AresLogo from "@site/static/img/logos/ares.svg";
-import EyeControlLogo from "@site/static/img/logos/eyeControl_black.svg";
+import EyeControlLogo from "@site/static/img/logos/eyecontrol_black.svg";
 import MDHairLogo from "@site/static/img/logos/mdhair.svg";
 import ITCLogo from "@site/static/img/logos/itc.svg";
 

@@ -27,7 +27,6 @@ const slam_div = () => {
         <li>Measurements</li>
         <li>Localization</li>
         <li>Mapping</li>
-        <li>etc...</li>
       </ul>
       <p>Prior work with all main 3D cameras:</p>
       <ul>
@@ -51,7 +50,6 @@ const cv_div = () => {
         <li>Pose estimation</li>
         <li>Feature extraction & matching</li>
         <li>OCR (optical charater recognition)</li>
-        <li>etc...</li>
       </ul>
     </div>
   );
@@ -68,7 +66,6 @@ const ds_div = () => {
         <li>Time series forecasting</li>
         {/* <li>Reinforcement learning</li> */}
         <li>Decision trees</li>
-        <li>etc...</li>
       </ul>
     </div>
   );
@@ -78,13 +75,11 @@ const prod_div = () => {
   return (
     <div>
       <p>
-        We helped companies from pre-seed to houndreds of employees & from ideation to production!
-        <br />
-        We can sit at round tables and consult about the algo pipeline architecture, build it from MVP to scale, and
-        deploy it to the cloud or on edge devices.
-        <br />
-        As freelancer we know that some companies would like a full time employees, so we can help recruit them while
-        advencing the product in the meantime
+        {`We helped companies from pre-seed to houndreds of employees & from ideation to production!
+
+        We can sit at round tables and consult about the algo pipeline architecture, build it from MVP to scale, and deploy it to the cloud or on edge devices.
+
+        As freelancer we know that some companies would like a full time employees, so we can help recruit them while advencing the product in the meantime.`}
       </p>
     </div>
   );

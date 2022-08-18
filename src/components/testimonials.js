@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import styles from "./testimonials.module.css";
 import "./testimonials_slick.css";
+import Quotation from "@site/static/img/quotation.svg";
 
 const Testimonial = ({ name, job_title, image, alt, text }) => {
   return (
@@ -15,8 +16,8 @@ const Testimonial = ({ name, job_title, image, alt, text }) => {
       <h2>
         {name} - {job_title}
       </h2>
-      <img className={styles.quotationStart} src="/img/quotation.svg" alt="quotation start" />
-      <img className={styles.quotationEnd} src="/img/quotation.svg" alt="quotation end" />
+      <Quotation title="quotation start" className={styles.quotationStart} />
+      <Quotation title="quotation end" className={styles.quotationEnd} />
     </div>
   );
 };

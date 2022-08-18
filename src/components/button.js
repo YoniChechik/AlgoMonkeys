@@ -4,10 +4,8 @@ import Link from "@docusaurus/Link";
 
 export default function Button(props) {
   return (
-    <button className={`${styles.btn} ${styles[props.type]}`}>
-      <Link className={styles.custom_link} to={props.to}>
-        {props.children}
-      </Link>
-    </button>
+    <Link className={styles.custom_link} to={props.to} tabindex="-1">
+      <button className={`${styles.btn} ${styles[props.type]}`}>{props.children}</button>
+    </Link>
   );
 }

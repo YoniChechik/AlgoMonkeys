@@ -20,7 +20,7 @@ const DoBlock = ({ title, svg_obj, text_div }) => {
 
 const slam_div = () => {
   return (
-    <div>
+    <div className={styles.info}>
       <p>Algorithmic work on all kind of 3D and SLAM problems:</p>
       <ul>
         <li>3D reconstruction</li>
@@ -40,7 +40,7 @@ const slam_div = () => {
 const cv_div = () => {
   //https://en.wikipedia.org/wiki/Outline_of_computer_vision
   return (
-    <div>
+    <div className={styles.info}>
       <p>Specializing in neural networks as well as classic computer vision:</p>
       <ul>
         <li>Classification</li>
@@ -57,7 +57,7 @@ const cv_div = () => {
 
 const ds_div = () => {
   return (
-    <div>
+    <div className={styles.info}>
       <p>Extracting insights from structured data using machine learning and math:</p>
       <ul>
         <li>Classification</li>
@@ -73,7 +73,7 @@ const ds_div = () => {
 
 const prod_div = () => {
   return (
-    <div>
+    <div className={styles.info}>
       <p>
         {`We helped companies from pre-seed to houndreds of employees & from ideation to production!
 

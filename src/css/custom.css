@@ -19,6 +19,7 @@
   --ifm-footer-link-color: #ebedf0;
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-navbar-link-color: var(--ifm-color-primary);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ===== import nunito font

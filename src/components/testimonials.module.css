@@ -1,5 +1,5 @@
 .flex_block {
-  background: #fafafa;
+  background: #e7e7e7;
   width: 90%;
   height: 350px;
   margin: 20px auto 30px; /* center div */
@@ -7,6 +7,7 @@
   text-align: center;
   position: relative;
   font-family: Arial, sans-serif;
+  border-radius: 20px;
 }
 .quotationStart {
   height: 50px;
@@ -70,6 +71,6 @@
 }
 @media only screen and (max-width: 400px) {
   .flex_block {
-    height: 600px;
+    height: 620px;
   }
 }

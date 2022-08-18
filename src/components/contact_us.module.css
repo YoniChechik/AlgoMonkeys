@@ -1,18 +1,23 @@
-/* TODO fix css */
 .contact_us_container {
   max-width: 1280px;
   margin: auto;
 }
 
 .form {
-  background: #8888888f;
+  background: #e7e7e7;
   width: 50%;
   margin: 0px auto 20px;
   height: auto;
 
   text-align: center; /* center the form input fields */
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
 }
-
+@media (max-width: 640px) {
+  .form {
+    width: 95%;
+  }
+}
 .form input,
 .form textarea {
   width: 90%;
@@ -20,9 +25,11 @@
   padding: 10px;
   margin: 5px;
   border: none;
+  border-radius: 10px;
 
   color: black;
   transition: all 0.2s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .form textarea {
@@ -33,7 +40,7 @@
 .form textarea:hover,
 .form input:focus,
 .form textarea:focus {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.493);
   outline: none;
 }
 

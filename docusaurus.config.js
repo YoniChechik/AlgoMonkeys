@@ -120,6 +120,10 @@ const config = {
                 label: "Learn Computer Vision",
                 to: "/docs/intro",
               },
+              {
+                label: "Accessibility",
+                to: "/accessibility",
+              },
             ],
           },
         ],

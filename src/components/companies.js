@@ -16,7 +16,7 @@ export default function Companies() {
   return (
     <section className={styles.container}>
       <Title>
-        Happy <PinkPart>Costumers</PinkPart>
+        Happy <PinkPart>Customers</PinkPart>
       </Title>
       <div className={styles.flex_list}>
         <BuildotsLogo title="Buildots logo" className={styles.img} />

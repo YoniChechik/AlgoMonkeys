@@ -73,7 +73,7 @@ const config = {
         disableSwitch: true,
       },
       //The meta image URL for the site. Relative to your site's "static" directory. Cannot be SVGs. Can be external URLs too.
-      image: "img/meta_logo.png",
+      image: "img/meta_image.jpg",
       metadata: [
         { name: "keywords", content: "computer vision, neural networks, algorithms, freelance, consulting, lecture" },
       ],

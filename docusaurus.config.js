@@ -73,7 +73,7 @@ const config = {
         disableSwitch: true,
       },
       //The meta image URL for the site. Relative to your site's "static" directory. Cannot be SVGs. Can be external URLs too.
-      image: "img/docusaurus.png",
+      image: "img/meta_logo.png",
       navbar: {
         hideOnScroll: true,
 
@@ -95,6 +95,9 @@ const config = {
             position: "right",
             label: "Learn Computer Vision",
           },
+        ],
+        metadata: [
+          { name: "keywords", content: "computer vision, neural networks, algorithms, freelance, consulting, lecture" },
         ],
       },
       footer: {

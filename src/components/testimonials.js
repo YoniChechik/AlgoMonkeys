@@ -16,8 +16,8 @@ const Testimonial = ({ name, job_title, image, alt, text }) => {
       <h2>
         {name} - {job_title}
       </h2>
-      <Quotation title="quotation start" className={styles.quotationStart} role="img" />
-      <Quotation title="quotation end" className={styles.quotationEnd} role="img" />
+      <Quotation title="quotation start" aria-label="quotation start" className={styles.quotationStart} role="img" />
+      <Quotation title="quotation end" aria-label="quotation end" className={styles.quotationEnd} role="img" />
     </div>
   );
 };

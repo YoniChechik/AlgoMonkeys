@@ -19,18 +19,18 @@ export default function Companies() {
         Happy <PinkPart>Customers</PinkPart>
       </Title>
       <div className={styles.flex_list}>
-        <BuildotsLogo title="Buildots logo" className={styles.img} role="img" />
-        <DeepchecksLogo title="DeepChecks logo" className={styles.img} role="img" />
-        <ClassiqLogo title="Classiq logo" className={styles.img} role="img" />
+        <BuildotsLogo title="Buildots logo" aria-label="Buildots logo" className={styles.img} role="img" />
+        <DeepchecksLogo title="DeepChecks logo" aria-label="DeepChecks logo" className={styles.img} role="img" />
+        <ClassiqLogo title="Classiq logo" aria-label="Classiq logo" className={styles.img} role="img" />
         <Image className={styles.img} img={require("/img/logos/applydesign_black.png")} alt="ApplyDesign logo" />
-        <CarevatureLogo title="Carevature logo" className={styles.img} role="img" />
-        <ClarityoLogo title="Clarityo logo" className={styles.img} role="img" />
-        <AresLogo title="Ares logo" className={styles.img} role="img" />
+        <CarevatureLogo title="Carevature logo" aria-label="Carevature logo" className={styles.img} role="img" />
+        <ClarityoLogo title="Clarityo logo" aria-label="Clarityo logo" className={styles.img} role="img" />
+        <AresLogo title="Ares logo" aria-label="Ares logo" className={styles.img} role="img" />
         <Image className={styles.img} img={require("/img/logos/ador.png")} alt="AdOr logo" />
-        <EyeControlLogo title="EyeControl logo" className={styles.img} role="img" />
+        <EyeControlLogo title="EyeControl logo" aria-label="EyeControl logo" className={styles.img} role="img" />
         <Image className={styles.img} img={require("/img/logos/firmus_black.png")} alt="Firmus logo" />
-        <MDHairLogo title="MDHair logo" className={styles.img} role="img" />
-        <ITCLogo title="ITC logo" className={styles.img} role="img" />
+        <MDHairLogo title="MDHair logo" aria-label="MDHair logo" className={styles.img} role="img" />
+        <ITCLogo title="ITC logo" aria-label="ITC logo" className={styles.img} role="img" />
         <Image className={styles.img} img={require("/img/logos/medhub_black.png")} alt="MedHub logo" />
       </div>
     </section>

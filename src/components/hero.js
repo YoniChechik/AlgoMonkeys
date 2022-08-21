@@ -29,7 +29,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={styles.hero_img}>
-          <ProgramerMonkey title="programer monkey" role="img" />
+          <ProgramerMonkey title="programer monkey" aria-label="programer monkey" role="img" />
         </div>
       </section>
     </header>

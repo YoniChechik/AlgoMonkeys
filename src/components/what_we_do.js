@@ -94,22 +94,31 @@ export default function WhatWeDo() {
       <div className={styles.flex_list}>
         <DoBlock
           title="Computer Vision"
-          svg_obj={<EyeIcon title="Eye icon" className={styles.icon} role="img" />}
+          svg_obj={<EyeIcon title="Eye icon" aria-label="Eye icon" className={styles.icon} role="img" />}
           text_div={cv_div()}
         />
         <DoBlock
           title="3D & SLAM"
-          svg_obj={<ARIcon title="3D icon" className={styles.icon} role="img" />}
+          svg_obj={<ARIcon title="3D icon" aria-label="3D icon" className={styles.icon} role="img" />}
           text_div={slam_div()}
         />
         <DoBlock
           title="Data Science"
-          svg_obj={<DataIcon title="Data science icon" className={styles.icon} role="img" />}
+          svg_obj={
+            <DataIcon title="Data science icon" aria-label="Data science icon" className={styles.icon} role="img" />
+          }
           text_div={ds_div()}
         />
         <DoBlock
           title="Idea to Production"
-          svg_obj={<CloudIcon title="Cloud with chip icon" className={styles.icon} role="img" />}
+          svg_obj={
+            <CloudIcon
+              title="Cloud with chip icon"
+              aria-label="Cloud with chip icon"
+              className={styles.icon}
+              role="img"
+            />
+          }
           text_div={prod_div()}
         />
       </div>

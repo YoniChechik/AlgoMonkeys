@@ -18,7 +18,7 @@ export default function Title(props) {
       <div className={style_flex_line}>
         {/* children is the data that comes between the opening and closing tags */}
         <h1 className={style_h1}>{props.children}</h1>
-        <ThreeDots title="title three dots" className={styles.ThreeDots} role="img" />
+        <ThreeDots title="title three dots" aria-label="title three dots" className={styles.ThreeDots} role="img" />
       </div>
     </div>
   );

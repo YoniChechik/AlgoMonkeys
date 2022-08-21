@@ -6,7 +6,6 @@
   padding: 30px 20px 0px 20px;
   text-align: center;
   position: relative;
-  font-family: Arial, sans-serif;
   border-radius: 20px;
 }
 .quotationStart {
@@ -33,13 +32,11 @@
 .flex_block h2 {
   color: #222;
   letter-spacing: 0.2px;
-  font-weight: 600;
   text-transform: uppercase;
   font-size: 17px;
 }
 
 .flex_block p {
-  font-weight: 200;
   color: #222;
   font-size: 15px;
   white-space: pre-line; /* deals with new lines */

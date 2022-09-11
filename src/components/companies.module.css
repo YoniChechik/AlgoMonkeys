@@ -20,6 +20,11 @@
   width: 25%;
   margin: auto;
   padding: 1vw 3vw;
+  filter: opacity(60%);
+}
+
+.img:hover {
+  filter: opacity(100%);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -31,4 +36,13 @@
   .img {
     width: 50%;
   }
+}
+
+/* Fix docusaurus Link */
+.custom_link {
+  color: inherit;
+}
+.custom_link:hover {
+  text-decoration: none;
+  color: inherit;
 }

@@ -27,6 +27,7 @@ const slam_div = () => {
         <li>Measurements</li>
         <li>Localization</li>
         <li>Mapping</li>
+        <li>Computational geometry</li>
       </ul>
       <p>Prior work with all main 3D cameras:</p>
       <ul>

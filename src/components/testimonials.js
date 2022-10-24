@@ -55,8 +55,8 @@ export default function Testimonials() {
         <Testimonial
           name="Tal Shulman"
           job_title="CTO"
-          image="/img/logos/ares.svg"
-          alt="Ares logo"
+          image="/img/logos/amp.svg"
+          alt="Amp logo"
           text={`Yoni (AlgoMonkeys) worked with us as part of our team for 6 months project. 
         He brings a lot of experience and knowledge to the team and integrates well with ongoing projects and new ones.
         Our Computer Vision research has progressed faster and better with Yoni on board.

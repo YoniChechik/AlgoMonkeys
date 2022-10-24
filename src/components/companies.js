@@ -7,7 +7,7 @@ import DeepchecksLogo from "@site/static/img/logos/deepchecks_black.svg";
 import ClassiqLogo from "@site/static/img/logos/classiq_black.svg";
 import CarevatureLogo from "@site/static/img/logos/carevature_black.svg";
 import ClarityoLogo from "@site/static/img/logos/clarityo.svg";
-import AresLogo from "@site/static/img/logos/ares.svg";
+import AmpLogo from "@site/static/img/logos/amp.svg";
 import EyeControlLogo from "@site/static/img/logos/eyecontrol_black.svg";
 import MDHairLogo from "@site/static/img/logos/mdhair.svg";
 import ITCLogo from "@site/static/img/logos/itc.svg";
@@ -39,12 +39,8 @@ export default function Companies() {
         <Link className={styles.img} aria-label="Clarityo website" to="https://clarityo.com/">
           <ClarityoLogo title="Clarityo logo" aria-label="Clarityo logo" role="img" />
         </Link>
-        <Link
-          className={styles.img}
-          aria-label="Ares website"
-          to="https://www.linkedin.com/company/connected-fitness-startup-stealth/"
-        >
-          <AresLogo title="Ares logo" aria-label="Ares logo" role="img" />
+        <Link className={styles.img} aria-label="Amp website" to="https://www.ampinteractive.io/">
+          <AmpLogo title="Amp logo" aria-label="Amp logo" role="img" />
         </Link>
         <Image img={require("/img/logos/ador.png")} className={styles.img} alt="AdOr logo" />
         <Link className={styles.img} aria-label="EyeControl website" to="https://www.eyecontrol.co.il/">

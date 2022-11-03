@@ -12,7 +12,7 @@ import EyeControlLogo from "@site/static/img/logos/eyecontrol_black.svg";
 import MDHairLogo from "@site/static/img/logos/mdhair.svg";
 import ITCLogo from "@site/static/img/logos/itc.svg";
 import SimplexLogo from "@site/static/img/logos/simplex_black.svg";
-import AgadoliveLogo from "@site/static/img/logos/agadolive_black.svg";
+// import AgadoliveLogo from "@site/static/img/logos/agadolive_black.svg";
 import Link from "@docusaurus/Link";
 
 export default function Companies() {

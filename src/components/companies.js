@@ -12,6 +12,7 @@ import EyeControlLogo from "@site/static/img/logos/eyecontrol_black.svg";
 import MDHairLogo from "@site/static/img/logos/mdhair.svg";
 import ITCLogo from "@site/static/img/logos/itc.svg";
 import SimplexLogo from "@site/static/img/logos/simplex_black.svg";
+import AgadoliveLogo from "@site/static/img/logos/agadolive_black.svg";
 import Link from "@docusaurus/Link";
 
 export default function Companies() {
@@ -61,6 +62,9 @@ export default function Companies() {
         <Link className={styles.img} aria-label="Simplex website" to="https://www.simplex-mapping.com/">
           <SimplexLogo title="Simplex logo" aria-label="Simplex logo" role="img" />
         </Link>
+        {/* <Link className={styles.img} aria-label="Agado Live website" to="https://www.agadolive.com/">
+          <AgadoliveLogo title="Agado Live logo" aria-label="Agado Live logo" role="img" />
+        </Link> */}
       </div>
     </section>
   );

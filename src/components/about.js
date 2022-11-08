@@ -20,7 +20,9 @@ export default function About() {
 
             💪 I do everything hands-on but I talk about my company in the plural form because of my extensive web of connections that enhance the deliverables when needed: from MLOps & annotations to front-end.
 
-            ⛳ I'm also a lecturer for Computer-Vision & AI at the Academic College of Tel-Aviv Yeffo, and in the past I've worked at Trigo, Microsoft, and Intel as an algo researcher. I hold B.Sc. & M.Sc. in electrical engineering from the Technion, both summa cum laude.`}
+            ⛳ My time is mainly spent in AlgoMonkeys, but i'm also a lecturer at Reichman University & The Academic College of Tel-Aviv Yeffo (computer science department: Computer-Vision & AI class).
+            
+            🕰️ In the past I've worked at Trigo, Microsoft, and Intel as an algo researcher. I hold B.Sc. & M.Sc. in electrical engineering from the Technion, both summa cum laude.`}
           </p>
         </div>
         <div className={styles.hero_img}>

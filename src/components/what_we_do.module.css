@@ -17,7 +17,7 @@
 }
 .flex_block {
   background-color: #e7e7e7;
-  padding: 10px;
+  padding: 20px;
   width: 50%;
 }
 
@@ -47,14 +47,10 @@
 }
 .title_and_icon {
   display: flex;
-  /* flex-direction: row; */
-  justify-content: space-between;
-  /* align-items: center; */
   height: 50px;
 }
 .title_and_icon h2 {
   padding: 0px;
-  margin: auto;
 }
 .icon {
   width: 20%;

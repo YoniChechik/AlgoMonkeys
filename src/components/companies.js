@@ -12,7 +12,7 @@ import EyeControlLogo from "@site/static/img/logos/eyecontrol_black.svg";
 import MDHairLogo from "@site/static/img/logos/mdhair.svg";
 import ITCLogo from "@site/static/img/logos/itc.svg";
 import SimplexLogo from "@site/static/img/logos/simplex_black.svg";
-// import AgadoliveLogo from "@site/static/img/logos/agadolive_black.svg";
+import AgadoliveLogo from "@site/static/img/logos/agadolive_black.svg";
 import Link from "@docusaurus/Link";
 
 export default function Companies() {
@@ -25,16 +25,22 @@ export default function Companies() {
         <Link className={styles.img} aria-label="Buildots website" to="https://buildots.com/">
           <BuildotsLogo title="Buildots logo" aria-label="Buildots logo" role="img" />
         </Link>
-        <Link className={styles.img} aria-label="DeepChecks website" to="https://deepchecks.com/">
-          <DeepchecksLogo title="DeepChecks logo" aria-label="DeepChecks logo" role="img" />
+        <Link className={styles.img} aria-label="Beewise website" to="https://www.beewise.ag/">
+          <Image img={require("/img/logos/beewise_black.png")} alt="Beewise logo" />
         </Link>
         <Link className={styles.img} aria-label="Classiq website" to="https://www.classiq.io/">
           <ClassiqLogo title="Classiq logo" aria-label="Classiq logo" role="img" />
         </Link>
-        <Link className={styles.img} aria-label="xxx website" to="https://www.applydesign.io/">
+        <Link className={styles.img} aria-label="ApplyDesign website" to="https://www.applydesign.io/">
           <Image img={require("/img/logos/applydesign_black.png")} alt="ApplyDesign logo" />
         </Link>
-        <Link className={styles.img} aria-label="ApplyDesign website" to="https://www.carevature.com/">
+        <Link className={styles.img} aria-label="Simplex website" to="https://www.simplex-mapping.com/">
+          <SimplexLogo title="Simplex logo" aria-label="Simplex logo" role="img" />
+        </Link>
+        <Link className={styles.img} aria-label="DeepChecks website" to="https://deepchecks.com/">
+          <DeepchecksLogo title="DeepChecks logo" aria-label="DeepChecks logo" role="img" />
+        </Link>
+        <Link className={styles.img} aria-label="Carevature website" to="https://www.carevature.com/">
           <CarevatureLogo title="Carevature logo" aria-label="Carevature logo" role="img" />
         </Link>
         <Link className={styles.img} aria-label="Clarityo website" to="https://clarityo.com/">
@@ -59,12 +65,9 @@ export default function Companies() {
         <Link className={styles.img} aria-label="MedHub website" to="https://www.medhub-ai.com/">
           <Image img={require("/img/logos/medhub_black.png")} alt="MedHub logo" />
         </Link>
-        <Link className={styles.img} aria-label="Simplex website" to="https://www.simplex-mapping.com/">
-          <SimplexLogo title="Simplex logo" aria-label="Simplex logo" role="img" />
-        </Link>
-        {/* <Link className={styles.img} aria-label="Agado Live website" to="https://www.agadolive.com/">
+        <Link className={styles.img} aria-label="Agado Live website" to="https://www.agadolive.com/">
           <AgadoliveLogo title="Agado Live logo" aria-label="Agado Live logo" role="img" />
-        </Link> */}
+        </Link>
       </div>
     </section>
   );

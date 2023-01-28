@@ -8,7 +8,7 @@ import ProgramerMonkey from "@site/static/img/programer_monkey.svg";
 
 export default function Hero() {
   return (
-    <header className={styles.hero_container}>
+    <header className={styles.header}>
       <section className={styles.hero}>
         <div className={styles.hero_details}>
           <Title is_main={true}>

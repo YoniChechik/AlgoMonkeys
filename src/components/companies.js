@@ -68,6 +68,9 @@ export default function Companies() {
         <Link className={styles.img} aria-label="Agado Live website" to="https://www.agadolive.com/">
           <AgadoliveLogo title="Agado Live logo" aria-label="Agado Live logo" role="img" />
         </Link>
+        <Link className={styles.img} aria-label="Codiq website" to="https://codiq.io/">
+          <Image img={require("/img/logos/codiq_black.png")} alt="Codiq logo" />
+        </Link>
       </div>
     </section>
   );

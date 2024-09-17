@@ -78,6 +78,15 @@ export default function Testimonials() {
           alt="Classiq logo"
           text={`Yoni consulted me in the past and I have found his pieces of advice priceless. From the right package for our use, to an algorithmic junction or properties of relevant employees.
          Yoni's vast experience, open mindedness and willingness to help are key. I am lucky to have him in my network, and I believe you should too.`}
+        />        
+        <Testimonial
+          name="Tomer Harry"
+          job_title="Head of Simply Draw"
+          image="/img/logos/simply.svg"
+          alt="Simply logo"
+          text={`Our team brought Yoni on board, and the results were highly effective. His expertise and practical approach not only resolved our issues but also accelerated our progress significantly. 
+            Yoni integrated seamlessly into our team, tackling complex neural network challenges, including classification, object detection, and segmentation. He consistently delivered results under tight deadlines, and his work was crucial in developing our production-grade application, enhancing both its quality and efficiency. 
+            I would recommend Yoni without hesitation for any project requiring reliable computer vision and AI expertise.`}
         />
       </Slider>
     </div>

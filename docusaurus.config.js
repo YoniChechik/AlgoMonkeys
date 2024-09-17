@@ -1,52 +1,60 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+import {themes as prismThemes} from 'prism-react-renderer';
 
 // use math notations
-const math = require("remark-math");
-const katex = require("rehype-katex");
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 // end use math notations
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "AlgoMonkeys",
   tagline: "Your Algo Team for Hire!",
-  url: "https://www.algomonkeys.io",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
+  // Set the production url of your site here
+  url: "https://www.algomonkeys.io",
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/',
+
   // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: "YoniChechik", // Usually your GitHub org/user name.
   projectName: "AlgoMonkeys", // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: "gh-pages",
+  
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: './sidebars.js',
           // use math notations
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // end use math notations
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: './src/css/custom.css',
         },
         gtag: {
           trackingID: "G-P51BLZP1H4",
@@ -128,8 +136,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} AlgoMonkeys LTD.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
   plugins: [
@@ -198,4 +206,4 @@ const config = {
   ],
 };
 
-module.exports = config;
+export default config;

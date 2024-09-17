@@ -13,6 +13,7 @@ import MDHairLogo from "@site/static/img/logos/mdhair.svg";
 import ITCLogo from "@site/static/img/logos/itc.svg";
 import SimplexLogo from "@site/static/img/logos/simplex_black.svg";
 import AgadoliveLogo from "@site/static/img/logos/agadolive_black.svg";
+import SimplyLogo from "@site/static/img/logos/simply.svg";
 import Link from "@docusaurus/Link";
 
 export default function Companies() {
@@ -70,6 +71,9 @@ export default function Companies() {
         </Link>
         <Link className={styles.img} aria-label="Codiq website" to="https://codiq.io/">
           <Image img={require("/img/logos/codiq_black.png")} alt="Codiq logo" />
+        </Link>
+        <Link className={styles.img} aria-label="Simply website" to="https://www.hellosimply.com/">
+          <SimplyLogo title="Simply logo" aria-label="Simply logo" role="img" />
         </Link>
       </div>
     </section>
